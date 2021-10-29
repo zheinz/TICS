@@ -1,0 +1,150 @@
+        Heap array dec  Heap array assign  Heap array del  ...  AND WW  OR WW  EMPTY
+Loop                                                       ...                      
+0                 6970                170            1210  ...     160    160    NaN
+1                  250                150             190  ...     150    140    NaN
+2                  190                150             160  ...     140    140    NaN
+3                  180                140             170  ...     150    140    NaN
+4                  190                150             160  ...     140    140    NaN
+...                ...                ...             ...  ...     ...    ...    ...
+999995             170                140             160  ...     150    140    NaN
+999996             170                150             160  ...     140    140    NaN
+999997             160                140             170  ...     140    150    NaN
+999998             170                140             160  ...     140    140    NaN
+999999             160                150             160  ...     150    150    NaN
+
+[1000000 rows x 27 columns]
+        Heap array dec  Heap array assign  Heap array del  ...  AND WW  OR WW  EMPTY
+Loop                                                       ...                      
+0                85000               5730          108690  ...    6140  10000    NaN
+1                 7380                490             800  ...     440    460    NaN
+2                  630                420             590  ...     420    430    NaN
+3                  530                430             530  ...     430    430    NaN
+4                  600                420             520  ...     420    420    NaN
+...                ...                ...             ...  ...     ...    ...    ...
+999995             550                420             510  ...     420    430    NaN
+999996             530                440             520  ...     410    420    NaN
+999997             520                430             530  ...     410    430    NaN
+999998             510                430             530  ...     410    420    NaN
+999999             540                430             520  ...     430    430    NaN
+
+[1000000 rows x 27 columns]
+        Heap array dec  Heap array assign  Heap array del  ...  AND WW  OR WW  EMPTY
+Loop                                                       ...                      
+0                  180                140             160  ...     150    150    NaN
+1                  180                140             160  ...     140    150    NaN
+2                  170                140             160  ...     140    150    NaN
+3                  170                150             160  ...     140    140    NaN
+4                  170                150             160  ...     140    140    NaN
+...                ...                ...             ...  ...     ...    ...    ...
+999990             170                140             160  ...     150    140    NaN
+999991             170                150             160  ...     140    140    NaN
+999992             160                140             170  ...     140    150    NaN
+999993             170                140             160  ...     140    140    NaN
+999994             160                150             160  ...     150    150    NaN
+
+[999995 rows x 27 columns]
+        Heap array dec  Heap array assign  Heap array del  ...  AND WW  OR WW  EMPTY
+Loop                                                       ...                      
+0                  540                440             550  ...     440    430    NaN
+1                  530                420             530  ...     420    420    NaN
+2                  540                430             520  ...     420    420    NaN
+3                  550                440             530  ...     420    430    NaN
+4                  540                420             530  ...     420    420    NaN
+...                ...                ...             ...  ...     ...    ...    ...
+999990             550                420             510  ...     420    430    NaN
+999991             530                440             520  ...     410    420    NaN
+999992             520                430             530  ...     410    430    NaN
+999993             510                430             530  ...     410    420    NaN
+999994             540                430             520  ...     430    430    NaN
+
+[999995 rows x 27 columns]
+
+HOST AVERAGE:
+Heap array dec         166.694841
+Heap array assign      142.571428
+Heap array del         162.122742
+Static array dec       150.398472
+Static array assign    142.175668
+Int dec                142.016342
+Int assign             141.832918
+Char dec               141.639807
+Char assign            141.462944
+String dec             171.523487
+String assign          176.046968
+Bool dec               142.136387
+If true                143.024615
+Bool assign            141.822756
+If false               143.104229
+If lt                  142.959514
+If equal               143.064515
+If gt                  143.261108
+And RR                 143.116879
+Or RR                  144.280805
+AND RW                 142.555402
+OR RW                  144.044357
+AND WR                 143.091661
+OR WR                  143.351744
+AND WW                 143.692884
+OR WW                  143.794823
+EMPTY                         NaN
+dtype: float64
+
+
+QEMU AVERAGE:
+Heap array dec         531.706131
+Heap array assign      430.159113
+Heap array del         548.780286
+Static array dec       499.929403
+Static array assign    417.141917
+Int dec                421.580468
+Int assign             418.064480
+Char dec               419.526705
+Char assign            417.922385
+String dec             570.507028
+String assign          566.200446
+Bool dec               420.792581
+If true                424.263720
+Bool assign            424.208778
+If false               429.839341
+If lt                  421.732014
+If equal               427.949349
+If gt                  451.310392
+And RR                 430.906556
+Or RR                  421.551989
+AND RW                 423.467946
+OR RW                  424.911243
+AND WR                 427.098484
+OR WR                  428.006157
+AND WW                 422.229724
+OR WW                  431.030839
+EMPTY                         NaN
+dtype: float64
+
+
+PERCENTAGE CHANGE:
+Heap array dec:  	 218.96975684932838
+Heap array assign:  	 201.71481008564763
+Heap array del:  	 238.49679597018866
+Static array dec:  	 232.40324587367414
+Static array assign:  	 193.3989499993307
+Int dec: 	 	 196.85349004396923
+Int assign: 	 	 194.75842824953816
+Char dec: 	 	 196.19265440258133
+Char assign: 	 	 195.42887477454497
+String dec: 	 	 232.6116083493566
+String assign:  	 221.61897002789405
+Bool dec: 	 	 196.0484579536527
+If true: 	 	 196.6368550990429
+Bool assign: 	 	 199.11192651167983
+If false: 	 	 200.3680224118607
+If lt: 		 	 195.00101284426714
+If equal: 	 	 199.13032437276237
+If gt: 		 	 215.02645546300053
+And RR: 	 	 201.08716721255303
+Or RR: 		 	 192.17468503830375
+AND RW: 	 	 197.05499831015732
+OR RW: 		 	 194.9863852715688
+AND WR: 	 	 198.4789470886579
+OR WR: 		 	 198.57059691661647
+AND WW: 	 	 193.84177631507066
+OR WW: 		 	 199.75407336590098
