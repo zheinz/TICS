@@ -19,7 +19,7 @@ python3 ../analyse.py output.txt > Qemu.txt
 python3 ../display.py Host.txt Qemu.txt
 
 rm output.txt
-#rm annotatedFile.cpp
+rm annotatedFile.cpp
 rm a.out
 rm Host.txt
 rm Qemu.txt
