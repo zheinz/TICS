@@ -1,7 +1,7 @@
 googlePerf:
 	Contains results gathered from using the google perf profiling tools. The merSort and Selsort cpp files are source code representing a merge sort
-	algorithm and selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode.
-	These executions were then profiled using googlePerf tools.
+	algorithm and selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user 
+	mode. These executions were then profiled using googlePerf tools.
 	
 	Naming Conventions & Files:
 		.prof files are profiles collected by googlePerfTools
