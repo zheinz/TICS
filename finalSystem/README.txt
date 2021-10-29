@@ -29,19 +29,23 @@ Subdirectories:
 	
 	
 HOW TO RUN:
-	To perform the experiments shown in the paper:
-		cd into each directory individually and execute performExp.sh which will ouput the results of the 5 executions to expResults.txt which were then averaged to produce the results in the report.
+	To perform the experiments shown in the paper (NOTE: Comments explaining program functionality were added after experimentation thus line numbers
+	produced now will not be the same as the line numbers shown in the paper but will still point to the correct lines):
+		cd into each directory individually and execute performExp.sh which will ouput the results of the 5 executions to expResults.txt which were 
+		then averaged to produce the results in the report.
 		For instance to execute the Declerations experiment:
 			
 			cd Declarations
 			./performEx.sh
 			
-		Then you would obtain the average host time, QEMU time and percentage change for each line in the results which is what is presented in the report. 
+		Then you would obtain the average host time, QEMU time and percentage change for each line in the results which is what is presented 
+		in the report. 
 	
 	
 		
 	To perform a single execution and comparison between the host and QEMU:
-		cd into each directory individually and execute create.sh with main.cpp as input for instance once in final system folder to execute declerations you would:
+		cd into each directory individually and execute create.sh with main.cpp as input for instance once in final system folder to execute 
+		declerations you would:
 		
 			cd Declerations
 			./create.sh -i main.cpp 
