@@ -1,7 +1,7 @@
 googlePerf:
-	Contains results gathered from using the google perf profiling tools. The merSort and Selsort cpp files are source code representing a merge sort algorithm and 
-	selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode. These executions were then 
-	profiled using googlePerf tools.
+	Contains results gathered from using the google perf profiling tools. The merSort and Selsort cpp files are source code representing a merge sort
+	algorithm and selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode.
+	These executions were then profiled using googlePerf tools.
 	
 	Naming Conventions & Files:
 		.prof files are profiles collected by googlePerfTools
@@ -21,8 +21,8 @@ googlePerf:
 
 gprof:
 	Contains results gathered from using the gprof tool. The merSort and Selsort cpp files are source code representing a merge sort algorithm and 
-	selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode. These executions were then 
-	profiled using gprof tools.
+	selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode. 
+	These executions were then profiled using gprof tools.
 	
 	Naming Conventions & Files:
 		.cpp source code files
@@ -40,8 +40,8 @@ gprof:
 
 perf:
 	Contains results gathered from using the Linux perf tool. The merSort and Selsort cpp files are source code representing a merge sort algorithm and 
-	selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode. These executions were then 
-	profiled using the Linux perf tool.
+	selection sort algorithm and were compiled into executables to be run on the host architecture, in qemu-system emulation and qemu-user mode. 
+	These executions were then profiled using the Linux perf tool.
 	
 	Naming Conventions & Files:
 		.cpp source code files
@@ -61,8 +61,8 @@ perf:
 
 
 lblGetTime:
-	Contains results gathered from instrumentating the code using system calls. The python script analyses the output from the getTime.cpp file and the sub directory double
-	repeats the collection multiple times for better results
+	Contains results gathered from instrumentating the code using system calls. The python script analyses the output from the getTime.cpp file and 
+	the sub directory double repeats the collection multiple times for better results
 	
 	Naming Conventions & Files:
 		.cpp are source code files
